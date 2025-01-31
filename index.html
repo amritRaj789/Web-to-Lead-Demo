@@ -16,10 +16,10 @@
         method="POST" onsubmit="submitHandler(event)">
 
         <input type=hidden name='captcha_settings'
-            value='{"keyname":"GoogleReCaptchaV3","fallback":"true","orgId":"00DdM000005UYIv","ts":""}'>
+            value='{"keyname":"ReCaptcha","fallback":"true","orgId":"00DdM000005UYIv","ts":""}'>
         <input type=hidden name="oid" value="00DdM000005UYIv">
         <input type=hidden name="retURL" value="https://amritraj789.github.io/Web-to-Lead-Demo/thanks.html">
-        <input type=hidden name="Lead_Date__c" class="output-date" value="00DdM000005UYIv">
+        <input type=hidden name="Lead_Date__c" class="output-date">
 
         <label for="first_name">First Name</label><input id="first_name" maxlength="40" name="first_name" size="20"
             type="text" required /><br>
@@ -34,7 +34,7 @@
         <input id="lead_date" type="date" class="input-date" required /><br>
         <!-- Lead Date:<span class="dateInput dateOnlyInput"><input id="00NdM00000Czn4W" name="00NdM00000Czn4W" size="12"
                 type="text" /></span><br> -->
-        <div class="g-recaptcha" data-callback="captchaSuccess" data-sitekey="6LcfoMgqAAAAAP59AR9Grfxttnx-EVl2yWoAU4Yp">
+        <div class="g-recaptcha" data-callback="captchaSuccess" data-sitekey="6Lc_o8gqAAAAAC3fU34Dp3eWTFmG5ZK0xUv1U7bk">
         </div><br>
         <input type="submit" name="submit" class="submit">
 
